@@ -47,7 +47,7 @@ jobs:
 
       - uses: pnpm/action-setup@v4
         with:
-          version: 10.9
+          version: 10
         if: ${{ steps.pkgman.outputs.package_manager == 'pnpm' }}
         name: Install pnpm
         id: pnpm-install
